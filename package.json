@@ -1,0 +1,40 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "A minimal Electron application that work in windows7",
+  "main": "main.js",
+  "scripts": {
+    "build": "npm run compile && electron-builder",
+    "compile": "electron-webpack",
+    "dev": "electron-webpack dev"
+  },
+  "repository": "https://github.com/abdelfetah18/electron-setup",
+  "keywords": [
+    "Electron",
+    "ReactJS",
+    "TailWindCss",
+    "Windows 7",
+    "win 7",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "GitHub",
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "electron": "^20.2.0",
+    "electron-builder": "^21.0.1",
+    "electron-webpack": "^2.8.2",
+    "webpack": "^4.46.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "css-loader": "^5.2.7",
+    "postcss": "^8.4.16",
+    "postcss-loader": "4.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "source-map-support": "^0.5.21",
+    "style-loader": "2.0.0",
+    "tailwindcss": "^3.1.7"
+  }
+}
