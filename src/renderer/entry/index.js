@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 // local dependencies
 import { getVersion } from 'common/util';

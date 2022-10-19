@@ -24,6 +24,7 @@
     "electron": "^20.2.0",
     "electron-builder": "^21.0.1",
     "electron-webpack": "^2.8.2",
+    "react-router-dom": "^6.4.2",
     "webpack": "^4.46.0"
   },
   "dependencies": {
