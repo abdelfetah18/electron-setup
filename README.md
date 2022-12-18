@@ -23,7 +23,7 @@ npm install --legacy-peer-deps
 after all the dependencies installed then you can run
 `npm run dev` for development.
 ```bash
-npm run build
+npm run dev
 ```
 and if you want to compile it, just run:
 ```bash
